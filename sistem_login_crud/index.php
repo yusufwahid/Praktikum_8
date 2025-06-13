@@ -19,8 +19,7 @@ session_start(); // Mulai session di setiap halaman yang membutuhkannya
                 <?php if (isset($_SESSION['user_id'])) : ?>
                     <li>Halo, <?php echo
                                 htmlspecialchars($_SESSION['nama_lengkap']); ?>!</li>
-                    <li><a href="users/index.php">Manajemen User
-                            (CRUD)</a></li>
+                    <li><a href="users/index.php">Manajemen User (CRUD)</a></li>
                     <li><a href="auth/logout.php">Logout</a></li>
                 <?php else : ?>
                     <li><a href="auth/login.php">Login</a></li>
@@ -28,8 +27,7 @@ session_start(); // Mulai session di setiap halaman yang membutuhkannya
                 <?php endif; ?>
             </ul>
         </nav>
-        <p>Ini adalah halaman utama. Silakan login atau registrasi untuk
-            melanjutkan.</p>
+        <p>Ini adalah halaman utama. Silakan login atau registrasi untuk melanjutkan.</p>
     </div>
 </body>
 

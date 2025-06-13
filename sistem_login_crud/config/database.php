@@ -1,7 +1,7 @@
 <?php
 // config/database.php
 $host = "localhost"; // Atau alamat IP server database Anda
-$db_name = "5522_db_app_user"; // Nama database yang telah Anda buat
+$db_name = "db_app_user"; // Nama database yang telah Anda buat
 $username_db = "root"; // Username database Anda (default XAMPP adalah"root")
 $password_db = ""; // Password database Anda (default XAMPP kosong)
 try {
